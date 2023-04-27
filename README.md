@@ -12,25 +12,15 @@ Analysis to be done: Clean up tweets and build a classification model by using N
 ## Tasks: 
 
 1. Load the tweets file using read_csv function from Pandas package. 
-
 2. Get the tweets into a list for easy text cleanup and manipulation.
-
 3. To cleanup: 
-
     1. Normalize the casing.
-
     2. Using regular expressions, remove user handles. These begin with '@’.
-
     3. Using regular expressions, remove URLs.
-
     4. Using TweetTokenizer from NLTK, tokenize the tweets into individual terms.
-
     5. Remove stop words.
-
     6. Remove redundant terms like ‘amp’, ‘rt’, etc.
-
     7. Remove ‘#’ symbols from the tweet while retaining the term.
-
 4. Extra cleanup by removing terms with a length of 1.
 
 5. Check out the top terms in the tweets:
